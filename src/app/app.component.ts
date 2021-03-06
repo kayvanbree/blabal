@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gitshit';
+
+  public clickShit(): void {
+    this.title = 'asdfasdf';
+  }
 }
